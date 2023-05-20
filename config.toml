@@ -60,9 +60,9 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   rssFullContent = true     # if false, Rss feed instead of the summary
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "SevDot"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["sevdot", "独立开发","自由职业","个人博客"]
-  description = "SevDot 是一个关注独立开发和自由职业的个人博客网站。"
+  logoTitle = "Codeaer"        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["codeaer","个人博客"]
+  description = "codeaer 的个人博客网站。"
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2023-05-20"
@@ -81,9 +81,8 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   moreMeta = true
 
 
-
-
   [params.social]                                         # 社交链接
+    a-email = "mailto:codeaer8@email.com"
     g-github = "http://github.com/codeaer"
 
 
