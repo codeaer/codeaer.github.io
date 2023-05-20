@@ -1,4 +1,4 @@
-baseURL = "https://www.sevdot.com"
+baseURL = "https://codeaer.github.io"
 title = "Codeaer"
 enableRobotsTXT = true
 enableEmoji = true
@@ -25,7 +25,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   languageCode = "zh-cn"
 
 [author]                  # essential                     # 必需
-  name = "SevDot"
+  name = "codeaer"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -65,11 +65,11 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   description = "SevDot 是一个关注独立开发和自由职业的个人博客网站。"
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-  dateFormatToUse = "2006-01-02"
+  dateFormatToUse = "2023-05-20"
 
   # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
   # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
-  toc = false                                                                            # 是否开启目录
+  toc = true                                                                            # 是否开启目录
   photoswipe = true         # see https://github.com/dimsemenov/PhotoSwipe            # 是否启用PhotoSwipe（图片可点击）
   contentCopyright = '自由转载-非商用-非衍生-保持署名（<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">创意共享3.0许可证</a>）'
 
@@ -80,12 +80,10 @@ defaultContentLanguage = "zh-cn"           # Default language to use
 
   moreMeta = true
 
-  baidu_analytics = "7501e58a01f15a8172e984786a0684fc"      # Baidu Analytics
 
-  customFooter = '<a href="https://beian.miit.gov.cn/">滇ICP备17004667号-3</a>'
+
 
   [params.social]                                         # 社交链接
-    g-github = "http://github.com/sevdot"
-    h-weibo = "http://github.com/sevdot"
+    g-github = "http://github.com/codeaer"
 
 
