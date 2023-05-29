@@ -6,4 +6,4 @@ menu: "main"
 weight: 50
 ---
 
-您好！我是 Codeaer，一名程序员。
+嗨咯，您好呀！我是 Codeaer，一名喜欢写博客的程序员。
