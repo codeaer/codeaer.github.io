@@ -1,5 +1,5 @@
 baseURL = "https://codeaer.github.io"
-title = "Codeaer"
+title = "码农"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -25,7 +25,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   languageCode = "zh-cn"
 
 [author]                  # essential                     # 必需
-  name = "Codeaer"
+  name = "阿秀"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -60,7 +60,7 @@ defaultContentLanguage = "zh-cn"           # Default language to use
   rssFullContent = true     # if false, Rss feed instead of the summary
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Codeaer"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "码农"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["codeaer","个人博客"]
   description = "codeaer 的个人博客网站。"
 
