@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>码农</title>
-    <link>https://codeaer.github.io/</link>
-    <description>Recent content on 码农</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    
-        <atom:link href="https://codeaer.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>码农</title><link>https://codeaer.github.io/</link><description>Recent content on 码农</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 17 Aug 2023 01:37:39 +0800</lastBuildDate><atom:link href="https://codeaer.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>关于</title><link>https://codeaer.github.io/about/</link><pubDate>Wed, 16 Aug 2023 01:13:59 +0800</pubDate><guid>https://codeaer.github.io/about/</guid><description>欢迎来到码农小站！
+我是阿秀，一名程序员，目前供职于云南昆明的一家小型科技公司，任 PHP 开发工程师，常用的技术栈是 Laravel 和 Vue。
+我并不是什么大佬，只是一名小小的码农，这也是小站名字的由来，搭建这个小站主要是为了记录和分享。</description></item><item><title>为什么会有这个博客</title><link>https://codeaer.github.io/post/why-is-there-this-blog.md/</link><pubDate>Thu, 17 Aug 2023 01:37:39 +0800</pubDate><guid>https://codeaer.github.io/post/why-is-there-this-blog.md/</guid><description>都 2023 年了还有人写博客吗?都 2023 年了还有人写博客吗?都 2023 年了还有人写博客吗?都 2023 年了还有人写博客吗?</description></item></channel></rss>
