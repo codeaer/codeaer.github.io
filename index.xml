@@ -314,7 +314,7 @@
 &lt;p>上面命令会在&lt;code>~/.ssh&lt;/code>目录下生成 &lt;code>id_rsa_hugo_deploy.pub&lt;/code>（公钥）和 &lt;code>id_rsa_hugo_deploy&lt;/code>（私钥） 两个文件。&lt;/p>
 &lt;p>在 &lt;code>codeaer.github.io&lt;/code>公开仓库下 &lt;code>Settings &amp;gt; Deploy keys&lt;/code>中新建 key。表单中的 Title 随意填写，将刚才生成的 &lt;code>id_rsa_hugo_deploy.pub&lt;/code> 文件内容填入 Key 中，勾选 Allow write access，点击 Add key 按钮保存。&lt;/p>
 &lt;p>在 &lt;code>codeaer.github.io&lt;/code>公开仓库下 &lt;code>Settings &amp;gt; Secrets and veriable &amp;gt; Actions&lt;/code>中新建 secret。表单中的 name 填入 &lt;code>ACTIONS_DEPLOY_KEY&lt;/code>，将刚才生成的 &lt;code>id_rsa_hugo_deploy&lt;/code> 文件内容填入 value 中，点击 Add secret 按钮保存。&lt;/p>
-&lt;h3 id="配置-github-actions">配置 Github Actions&lt;/h3>
+&lt;h3 id="33-配置-github-actions">3.3 配置 Github Actions&lt;/h3>
 &lt;p>自动构建的工作流程是使用 Github Action 来完成，所以需要配置 Github Action 的工作流程，就是配置 &lt;code>workflow&lt;/code>，直接在源码跟目录下新建 &lt;code>/.github/workflows/main.yml&lt;/code>文件，内容如下：&lt;/p>
 &lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
