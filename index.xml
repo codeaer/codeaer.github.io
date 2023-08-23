@@ -1,6 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>码农</title><link>https://codeaer.github.io/</link><description>Recent content on 码农</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 22 Aug 2023 21:58:28 +0800</lastBuildDate><atom:link href="https://codeaer.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>关于</title><link>https://codeaer.github.io/about/</link><pubDate>Thu, 17 Aug 2023 01:13:59 +0800</pubDate><guid>https://codeaer.github.io/about/</guid><description>&lt;p>欢迎来到码农小站！&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>码农</title><link>https://codeaer.github.io/</link><description>Recent content on 码农</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 23 Aug 2023 18:58:28 +0800</lastBuildDate><atom:link href="https://codeaer.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>关于</title><link>https://codeaer.github.io/about/</link><pubDate>Thu, 17 Aug 2023 01:13:59 +0800</pubDate><guid>https://codeaer.github.io/about/</guid><description>&lt;p>欢迎来到码农小站！&lt;/p>
 &lt;p>我是阿秀，一名程序员，目前供职于云南昆明的一家小型科技公司，任 PHP 开发工程师，常用的技术栈是 Laravel 和 Vue。&lt;/p>
-&lt;p>并不是什么大佬，只是一名小小的码农，这也是小站名字的由来，搭建这个小站主要是为了记录和分享。&lt;/p></description></item><item><title>使用 Hugo + Github Pages + Github Actions 免费搭建个人博客</title><link>https://codeaer.github.io/post/build-a-free-personal-blog-using-hugo-github-pages-github-actions/</link><pubDate>Tue, 22 Aug 2023 21:58:28 +0800</pubDate><guid>https://codeaer.github.io/post/build-a-free-personal-blog-using-hugo-github-pages-github-actions/</guid><description>&lt;p>我的个人博客码农小站是使用 Hugo + Github Pages + Github Actions 免费搭建的，这篇博客文章就来分享一下码农小站的搭建过程。&lt;/p>
+&lt;p>并不是什么大佬，只是一名小小的码农，这也是小站名字的由来，搭建这个小站主要是为了记录和分享。&lt;/p></description></item><item><title>Hugo 中启用 Giscus 评论</title><link>https://codeaer.github.io/post/enable-giscus-comments-in-hugo/</link><pubDate>Wed, 23 Aug 2023 18:58:28 +0800</pubDate><guid>https://codeaer.github.io/post/enable-giscus-comments-in-hugo/</guid><description>&lt;p>在《&lt;a href="https://codeaer.github.io/post/build-a-free-personal-blog-using-hugo-github-pages-github-actions/">使用 Hugo + Github Pages + Github Actions 免费搭建个人博客&lt;/a>》博客文章中分享了如何使用 Hugo + Github 搭建一个免费的博客网站，这篇博客文章分享如何在 Hugo 博客中启用 Giscus 评论。&lt;/p>
+&lt;p>Giscus 是利用 &lt;a href="https://docs.github.com/en/discussions">GitHub Discussions&lt;/a> 实现的评论系统，开源、无跟踪、无广告、永久免费。&lt;/p>
+&lt;p>Hugo 对 Giscus 有很好的支持，在 hugo-theme-jane 主题中配置启用Giscus 很简单。&lt;/p>
+&lt;p>要启用 Giscus 请先确保：&lt;/p>
+&lt;ol>
+&lt;li>仓库是公开的，否则访客将无法查看 discussions。&lt;/li>
+&lt;li>&lt;a href="https://github.com/apps/giscus">giscus app&lt;/a> 已安装，否则访客将无法评论和回应。&lt;/li>
+&lt;li>Discussions 功能已在你的仓库中启用。&lt;/li>
+&lt;/ol>
+&lt;p>前面搭建的博客仓库就是公开的，满足了第一点，接下来要做的就是安装 Giscus app 和启用 Discussions。&lt;/p>
+&lt;h2 id="安装-discus-app">安装 Discus app&lt;/h2>
+&lt;p>打开 &lt;a href="https://github.com/apps/giscus">Discus app&lt;/a> 打开安装地址，然后点击 install，会出现如下页面：
+&lt;img src="https://cdn.staticaly.com/gh/codeaer/images@main/blog/image.3vcutk3klbg0.webp" alt="">&lt;/p>
+&lt;p>选择 &lt;code>Only select repositories&lt;/code>，然后选择要安装的仓库，这里应该选择 &lt;code>&amp;lt;username&amp;gt;/&amp;lt;username&amp;gt;.github.io&lt;/code>，我选择的就是 &lt;code>codeaer/codeaer.github.io&lt;/code>，然后点击 install 安装 。&lt;/p>
+&lt;h2 id="启用">启用&lt;/h2>
+&lt;p>在 &lt;code>&amp;lt;username&amp;gt;/&amp;lt;username&amp;gt;.github.io&lt;/code> 仓库下，点击 Settings，启用 Discussions。&lt;/p>
+&lt;h2 id="获取-giscus-配置信息">获取 Giscus 配置信息&lt;/h2>
+&lt;p>打开 &lt;a href="https://giscus.app/zh-CN">https://giscus.app/zh-CN&lt;/a>，选择语言/仓库/页面：
+&lt;img src="https://cdn.staticaly.com/gh/codeaer/images@main/blog/image.5ojue0mnfac0.webp" alt="">&lt;/p>
+&lt;p>选择分类/特性/主题：
+&lt;img src="https://cdn.staticaly.com/gh/codeaer/images@main/blog/image.4wh0gfp67sw0.webp" alt="">
+然后在启动里面就有我们要的配置信息：
+&lt;img src="https://cdn.staticaly.com/gh/codeaer/images@main/blog/image.6cx98xhrkgw0.webp" alt="">&lt;/p>
+&lt;h2 id="配置-giscus">配置 Giscus&lt;/h2>
+&lt;p>在 Hugo 博客站点根目录下，打开 &lt;code>config.toml&lt;/code>文件，添加如下配置项：&lt;/p>
+&lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-1">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-1"> 1&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-2">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-2"> 2&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-3">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-3"> 3&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-4">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-4"> 4&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-5">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-5"> 5&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-6">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-6"> 6&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-7">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-7"> 7&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-8">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-8"> 8&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-9">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-9"> 9&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-10">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-10">10&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-11">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-11">11&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-12">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-12">12&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-13">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-13">13&lt;/a>
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f" id="hl-0-14">&lt;a style="outline:none;text-decoration:none;color:inherit" href="#hl-0-14">14&lt;/a>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#bbb"> &lt;/span>[params.giscus] &lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#60a0b0;font-style:italic"># giscus is a comment system based on GitHub Discussions. see https://giscus.app&lt;/span>&lt;span style="color:#bbb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#bbb"> &lt;/span>enable = true&lt;span style="color:#bbb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#bbb"> &lt;/span>repo = &amp;#34;codeaer/codeaer.github.io&amp;#34;&lt;span style="color:#bbb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#bbb"> &lt;/span>repoId = &amp;#34;R_kgDOKH6qOA&amp;#34;&lt;span style="color:#bbb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#bbb"> &lt;/span>category = &amp;#34;Announcements&amp;#34;&lt;span style="color:#bbb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#bbb"> &lt;/span>categoryId = &amp;#34;DIC_kwDOKH6qOM4CYqRn&amp;#34;&lt;span style="color:#bbb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#60a0b0;font-style:italic"># mapping = &amp;#34;pathname&amp;#34; # comment value is the default value&lt;/span>&lt;span style="color:#bbb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#60a0b0;font-style:italic"># strict = 0&lt;/span>&lt;span style="color:#bbb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#60a0b0;font-style:italic"># reactionsEnabled = 1&lt;/span>&lt;span style="color:#bbb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#60a0b0;font-style:italic"># emitMetadata = 0&lt;/span>&lt;span style="color:#bbb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#60a0b0;font-style:italic"># inputPosition = &amp;#34;top&amp;#34;&lt;/span>&lt;span style="color:#bbb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#60a0b0;font-style:italic"># theme = &amp;#34;light&amp;#34;&lt;/span>&lt;span style="color:#bbb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#bbb"> &lt;/span>lang = &amp;#34;zh-CN&amp;#34;&lt;span style="color:#bbb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#bbb"> &lt;/span>&lt;span style="color:#60a0b0;font-style:italic"># lazyLoading = false&lt;/span>&lt;span style="color:#bbb">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;blockquote>
+&lt;p>⚠️注意：这里的 repo、repoId、category、categoryId 要填你上面获取到的对应的值。&lt;/p>
+&lt;/blockquote>
+&lt;p>到此为止就配置并启用了 Giscus 评论，启动 Hugo 服务预览，随便打开一篇文章就可以看到已经有评论功能：
+&lt;img src="https://cdn.staticaly.com/gh/codeaer/images@main/blog/image.3v33w8l5h0i0.webp" alt="">&lt;/p></description></item><item><title>使用 Hugo + Github Pages + Github Actions 免费搭建个人博客</title><link>https://codeaer.github.io/post/build-a-free-personal-blog-using-hugo-github-pages-github-actions/</link><pubDate>Tue, 22 Aug 2023 21:58:28 +0800</pubDate><guid>https://codeaer.github.io/post/build-a-free-personal-blog-using-hugo-github-pages-github-actions/</guid><description>&lt;p>我的个人博客码农小站是使用 Hugo + Github Pages + Github Actions 免费搭建的，这篇博客文章就来分享一下码农小站的搭建过程。&lt;/p>
 &lt;p>Hugo 是由 Go 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。可以把 Markkdown 文件转化成静态 HTML 文件。&lt;/p>
 &lt;p>Github Pages 是一组静态网页集合(Static Web Page)，这些静态网页由 &lt;a href="https://github.com">GitHub&lt;/a> 托管。&lt;/p>
 &lt;p>Hugo 生成静态 HTML，然后由 Github Actions 自动部署到 Github Pages 上进行托管。&lt;/p>
