@@ -12,17 +12,17 @@
 &lt;p>前面搭建的博客仓库就是公开的，满足了第一点，接下来要做的就是安装 Giscus app 和启用 Discussions。&lt;/p>
 &lt;h2 id="安装-discus-app">安装 Discus app&lt;/h2>
 &lt;p>打开 &lt;a href="https://github.com/apps/giscus">Discus app&lt;/a> 打开安装地址，然后点击 install，会出现如下页面：
-&lt;img src="https://cdn.staticaly.com/gh/codeaer/images@main/blog/image.3vcutk3klbg0.webp" alt="">&lt;/p>
+&lt;img src="https://github.com/codeaer/images/raw/main/blog/image.3vcutk3klbg0.webp" alt="">&lt;/p>
 &lt;p>选择 &lt;code>Only select repositories&lt;/code>，然后选择要安装的仓库，这里应该选择 &lt;code>&amp;lt;username&amp;gt;/&amp;lt;username&amp;gt;.github.io&lt;/code>，我选择的就是 &lt;code>codeaer/codeaer.github.io&lt;/code>，然后点击 install 安装 。&lt;/p>
 &lt;h2 id="启用">启用&lt;/h2>
 &lt;p>在 &lt;code>&amp;lt;username&amp;gt;/&amp;lt;username&amp;gt;.github.io&lt;/code> 仓库下，点击 Settings，启用 Discussions。&lt;/p>
 &lt;h2 id="获取-giscus-配置信息">获取 Giscus 配置信息&lt;/h2>
 &lt;p>打开 &lt;a href="https://giscus.app/zh-CN">https://giscus.app/zh-CN&lt;/a>，选择语言/仓库/页面：
-&lt;img src="https://cdn.staticaly.com/gh/codeaer/images@main/blog/image.5ojue0mnfac0.webp" alt="">&lt;/p>
+&lt;img src="https://github.com/codeaer/images/raw/main/blog/image.5ojue0mnfac0.webp" alt="">&lt;/p>
 &lt;p>选择分类/特性/主题：
-&lt;img src="https://cdn.staticaly.com/gh/codeaer/images@main/blog/image.4wh0gfp67sw0.webp" alt="">
+&lt;img src="https://github.com/codeaer/images/raw/main/blog/image.4wh0gfp67sw0.webp" alt="">
 然后在启动里面就有我们要的配置信息：
-&lt;img src="https://cdn.staticaly.com/gh/codeaer/images@main/blog/image.6cx98xhrkgw0.webp" alt="">&lt;/p>
+&lt;img src="https://github.com/codeaer/images/raw/main/blog/image.6cx98xhrkgw0.webp" alt="">&lt;/p>
 &lt;h2 id="配置-giscus">配置 Giscus&lt;/h2>
 &lt;p>在 Hugo 博客站点根目录下，打开 &lt;code>config.toml&lt;/code>文件，添加如下配置项：&lt;/p>
 &lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
@@ -63,7 +63,7 @@
 &lt;p>⚠️注意：这里的 repo、repoId、category、categoryId 要填你上面获取到的对应的值。&lt;/p>
 &lt;/blockquote>
 &lt;p>到此为止就配置并启用了 Giscus 评论，启动 Hugo 服务预览，随便打开一篇文章就可以看到已经有评论功能：
-&lt;img src="https://cdn.staticaly.com/gh/codeaer/images@main/blog/image.3v33w8l5h0i0.webp" alt="">&lt;/p></description></item><item><title>使用 Hugo + Github Pages + Github Actions 免费搭建个人博客</title><link>https://codeaer.github.io/post/build-a-free-personal-blog-using-hugo-github-pages-github-actions/</link><pubDate>Tue, 22 Aug 2023 21:58:28 +0800</pubDate><guid>https://codeaer.github.io/post/build-a-free-personal-blog-using-hugo-github-pages-github-actions/</guid><description>&lt;p>我的个人博客码农小站是使用 Hugo + Github Pages + Github Actions 免费搭建的，这篇博客文章就来分享一下码农小站的搭建过程。&lt;/p>
+&lt;img src="https://github.com/codeaer/images/raw/main/blog/image.3v33w8l5h0i0.webp" alt="">&lt;/p></description></item><item><title>使用 Hugo + Github Pages + Github Actions 免费搭建个人博客</title><link>https://codeaer.github.io/post/build-a-free-personal-blog-using-hugo-github-pages-github-actions/</link><pubDate>Tue, 22 Aug 2023 21:58:28 +0800</pubDate><guid>https://codeaer.github.io/post/build-a-free-personal-blog-using-hugo-github-pages-github-actions/</guid><description>&lt;p>我的个人博客码农小站是使用 Hugo + Github Pages + Github Actions 免费搭建的，这篇博客文章就来分享一下码农小站的搭建过程。&lt;/p>
 &lt;p>Hugo 是由 Go 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。可以把 Markkdown 文件转化成静态 HTML 文件。&lt;/p>
 &lt;p>Github Pages 是一组静态网页集合(Static Web Page)，这些静态网页由 &lt;a href="https://github.com">GitHub&lt;/a> 托管。&lt;/p>
 &lt;p>Hugo 生成静态 HTML，然后由 Github Actions 自动部署到 Github Pages 上进行托管。&lt;/p>
@@ -145,7 +145,7 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>成功启动后，在浏览器地址输入  &lt;code>http://localhost:1313&lt;/code>  地址将会看到由主题生成的示例网站：&lt;/p>
-&lt;p>&lt;img src="https://cdn.staticaly.com/gh/codeaer/images@main/blog/theme-jane-example.625enp25a0c0.webp" alt="">
+&lt;p>&lt;img src="https://github.com/codeaer/images/raw/main/blog/theme-jane-example.625enp25a0c0.webp" alt="">
 通过浏览示例网站，可以大致的了解，当前主题拥有的功能。&lt;/p>
 &lt;h3 id="13-配置-hugo">1.3 配置 Hugo&lt;/h3>
 &lt;p>下载来是配置 Hugo，使其成为自己想要的样子，拥有属于自己的内容，删除 content 目录下的内容，输入如下命令：&lt;/p>
@@ -277,7 +277,7 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>使用浏览器打开&lt;code>http://localhost:1313&lt;/code>  可以看到如下效果：
-&lt;img src="https://cdn.staticaly.com/gh/codeaer/images@main/blog/codeaer-init.64teqt8fjac0.webp" alt="">&lt;/p>
+&lt;img src="https://github.com/codeaer/images/raw/main/blog/codeaer-init.64teqt8fjac0.webp" alt="">&lt;/p>
 &lt;h3 id="14-构建-hugo-站点">1.4 构建 Hugo 站点&lt;/h3>
 &lt;p>输入 hugo 命令来构建站点：&lt;/p>
 &lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
@@ -328,7 +328,7 @@
 &lt;p>接下来是创建 Github 私有仓库，并将 Hugo 源码推送到创建的私有仓库，然后在私有仓库配置 Github Actions。&lt;/p>
 &lt;h3 id="31-创建-github-私有仓库">3.1 创建 Github 私有仓库&lt;/h3>
 &lt;p>创建 Github 私有仓库，并取名为 &lt;code>pages-hugo-source&lt;/code>，如下图所示：
-&lt;img src="https://cdn.staticaly.com/gh/codeaer/images@main/blog/image.5o01wj54lq00.webp" alt="">&lt;/p>
+&lt;img src="https://github.com/codeaer/images/raw/main/blog/image.5o01wj54lq00.webp" alt="">&lt;/p>
 &lt;p>私有仓库创建好后，接下来是将 Hugo 站点源码推送到私有仓库。使用如下命令删除 public 目录：&lt;/p>
 &lt;div class="highlight">&lt;div style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 &lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
@@ -464,7 +464,7 @@
 &lt;li>将构建好的 &lt;code>blog&lt;/code> 站点发布到 &lt;code>main&lt;/code>分支。&lt;/li>
 &lt;/ol>
 &lt;p>到此为止，使用 Hugo + Github Pages + Github Actions 搭建博客完成，接下来就是尽情写作。&lt;/p></description></item><item><title>为什么会有这个博客</title><link>https://codeaer.github.io/post/why-is-there-this-blog/</link><pubDate>Thu, 17 Aug 2023 14:37:39 +0800</pubDate><guid>https://codeaer.github.io/post/why-is-there-this-blog/</guid><description>&lt;p>欢迎来到码农小站，欢迎阅读这篇博客，这是小站的第一篇博客，希望你会喜欢。&lt;/p>
-&lt;p>不得不承认，现在是短视频时代，坚持写博客的人越来越少，以前喜欢的订阅的博客也好久没有更新了。&lt;/p>
+&lt;p>不得不承认，现在是短视频时代，坚持写博客的人越来越少了，以前喜欢的订阅的博客也好久没有更新了。&lt;/p>
 &lt;p>都 2023 年了，谁还会想着写博客呢？是我，我又开始写博客了，为什么是“又”呢？&lt;/p>
 &lt;p>其实之前折腾过好几次博客，最开始写博客是在 2018 年，当时看了阮一峰大佬的博客，觉得自己也应该写博客。&lt;/p>
 &lt;p>后来想通过写博客赚钱，在 CSDN、简书、知乎等平台写过博客，在百家号、头条号等平台写过博客。&lt;/p>
