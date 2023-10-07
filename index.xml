@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>码农</title><link>https://www.codeaer.com/</link><description>Recent content on 码农</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 23 Aug 2023 18:58:28 +0800</lastBuildDate><atom:link href="https://www.codeaer.com/index.xml" rel="self" type="application/rss+xml"/><item><title>关于</title><link>https://www.codeaer.com/about/</link><pubDate>Thu, 17 Aug 2023 01:13:59 +0800</pubDate><guid>https://www.codeaer.com/about/</guid><description>&lt;p>欢迎来到码农小站！&lt;/p>
-&lt;p>我是阿秀，一名程序员，目前供职于云南昆明的一家小型科技公司，任 PHP 开发工程师，常用的技术栈是 Laravel 和 Vue。&lt;/p>
-&lt;p>并不是什么大佬，只是一名小小的码农，这也是小站名字的由来，搭建这个小站主要是为了记录和分享。&lt;/p></description></item><item><title>Hugo 中启用 Giscus 评论</title><link>https://www.codeaer.com/post/enable-giscus-comments-in-hugo/</link><pubDate>Wed, 23 Aug 2023 18:58:28 +0800</pubDate><guid>https://www.codeaer.com/post/enable-giscus-comments-in-hugo/</guid><description>&lt;p>在《&lt;a href="https://codeaer.github.io/post/build-a-free-personal-blog-using-hugo-github-pages-github-actions/">使用 Hugo + Github Pages + Github Actions 免费搭建个人博客&lt;/a>》博客文章中分享了如何使用 Hugo + Github 搭建一个免费的博客网站，这篇博客文章分享如何在 Hugo 博客中启用 Giscus 评论。&lt;/p>
+&lt;p>我是阿秀，一名程序员，目前供职于云南昆明的一家小型科技公司，任 PHP 开发工程师，常用的技术栈是 Laravel 和 Vue。&lt;/p></description></item><item><title>Hugo 中启用 Giscus 评论</title><link>https://www.codeaer.com/post/enable-giscus-comments-in-hugo/</link><pubDate>Wed, 23 Aug 2023 18:58:28 +0800</pubDate><guid>https://www.codeaer.com/post/enable-giscus-comments-in-hugo/</guid><description>&lt;p>在《&lt;a href="https://codeaer.github.io/post/build-a-free-personal-blog-using-hugo-github-pages-github-actions/">使用 Hugo + Github Pages + Github Actions 免费搭建个人博客&lt;/a>》博客文章中分享了如何使用 Hugo + Github 搭建一个免费的博客网站，这篇博客文章分享如何在 Hugo 博客中启用 Giscus 评论。&lt;/p>
 &lt;p>Giscus 是利用 &lt;a href="https://docs.github.com/en/discussions">GitHub Discussions&lt;/a> 实现的评论系统，开源、无跟踪、无广告、永久免费。&lt;/p>
 &lt;p>Hugo 对 Giscus 有很好的支持，在 hugo-theme-jane 主题中配置启用Giscus 很简单。&lt;/p>
 &lt;p>要启用 Giscus 请先确保：&lt;/p>
@@ -463,13 +462,10 @@
 &lt;li>&lt;code>action&lt;/code>使用 &lt;code>hugo&lt;/code> 构建 &lt;code>blog&lt;/code> 站点。&lt;/li>
 &lt;li>将构建好的 &lt;code>blog&lt;/code> 站点发布到 &lt;code>main&lt;/code>分支。&lt;/li>
 &lt;/ol>
-&lt;p>到此为止，使用 Hugo + Github Pages + Github Actions 搭建博客完成，接下来就是尽情写作。&lt;/p></description></item><item><title>为什么会有这个博客</title><link>https://www.codeaer.com/post/why-is-there-this-blog/</link><pubDate>Thu, 17 Aug 2023 14:37:39 +0800</pubDate><guid>https://www.codeaer.com/post/why-is-there-this-blog/</guid><description>&lt;p>欢迎来到码农小站，欢迎阅读这篇博客，这是小站的第一篇博客，希望你会喜欢。&lt;/p>
-&lt;p>不得不承认，现在是短视频时代，坚持写博客的人越来越少了，以前喜欢的订阅的博客也好久没有更新了。&lt;/p>
-&lt;p>都 2023 年了，谁还会想着写博客呢？是我，我又开始写博客了，为什么是“又”呢？&lt;/p>
-&lt;p>其实之前折腾过好几次博客，最开始写博客是在 2018 年，当时看了阮一峰大佬的博客，觉得自己也应该写博客。&lt;/p>
-&lt;p>后来想通过写博客赚钱，在 CSDN、简书、知乎等平台写过博客，在百家号、头条号等平台写过博客。&lt;/p>
+&lt;p>到此为止，使用 Hugo + Github Pages + Github Actions 搭建博客完成，接下来就是尽情写作。&lt;/p></description></item><item><title>为什么会有这个博客</title><link>https://www.codeaer.com/post/why-is-there-this-blog/</link><pubDate>Thu, 17 Aug 2023 14:37:39 +0800</pubDate><guid>https://www.codeaer.com/post/why-is-there-this-blog/</guid><description>&lt;p>欢迎来到码农小站，欢迎阅读这篇博客，这是小站的第一篇博客文章，希望你会喜欢。&lt;/p>
+&lt;p>不得不承认，现在是短视频时代，坚持写博客的人越来越少了，很多优秀的博客也断更了。毕竟都 2023 年了，谁还会想着写博客呢？&lt;/p>
+&lt;p>然而在今天，我又开始写博客了，为什么是“又”呢？&lt;/p>
+&lt;p>其实之前折腾过好几次博客，最开始写博客是在 2018 年，当时看了阮一峰大佬的博客，觉得自己也应该写博客，于是就弄了一个博客，开始更新博客。&lt;/p>
+&lt;p>后来听说写博客能挣钱，于是想通过写博客赚钱，开始在 CSDN、简书、知乎等平台写博客，还在百家号、头条号和微信公众号等平台写博客。&lt;/p>
 &lt;p>还从零开发过几次博客程序，购买域名，备案域名，购买服务器，开发一大堆功能，一顿操作下来，没有写几篇博客文章。&lt;/p>
-&lt;p>折腾几次最后都没有坚持下来，这次能坚持下来吗？答案是不一定，所以在此立 flag，到明年的今天写下 42 篇博客。&lt;/p>
-&lt;p>搭建这个博客主要是为了记录和分享，记录自己学习开发中遇到的问题，下次再遇到就不需要百度了。分享是为了帮助遇到同样问题的人，毕竟愿意写博客的人少了，能搜索到的解决方案就更少。&lt;/p>
-&lt;p>我是很喜欢逛别人的博客，尤其是工作摸鱼的时候，看看别人的经历，再照照镜子，或许会有这人的经历跟我好像的感叹。写博客的人少了，我就想为同样喜欢逛博客的人多增加一个选择。&lt;/p>
-&lt;p>这个博客是使用 Hugo + Github Pages + Github Action 免费搭建的，这也避免了因为缺钱支付不起服务器费用而选择放弃博客，在 Github Pages 不改变的情况，这个博客会一直存在。&lt;/p></description></item></channel></rss>
+&lt;p>折腾了几次都没有坚持下来，这次能坚持下来吗？答案是不一定，但我希望能坚持下去，这次搭建博客主要是为了记录学习和分享编程开发。&lt;/p></description></item></channel></rss>
