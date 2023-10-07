@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://codeaer.github.io/sitemap.xml
+Sitemap: https://www.codeaer.com/sitemap.xml
